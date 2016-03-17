@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR_Testing.CSharp", "VR_Testing.CSharp.csproj", "{01BF4848-A1C2-F92E-BEAB-E4DFCB0E6EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR_Testing.CSharp.Editor", "VR_Testing.CSharp.Editor.csproj", "{4B372ECD-B853-6E5E-9297-C50265002ABA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01BF4848-A1C2-F92E-BEAB-E4DFCB0E6EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BF4848-A1C2-F92E-BEAB-E4DFCB0E6EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BF4848-A1C2-F92E-BEAB-E4DFCB0E6EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BF4848-A1C2-F92E-BEAB-E4DFCB0E6EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B372ECD-B853-6E5E-9297-C50265002ABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B372ECD-B853-6E5E-9297-C50265002ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B372ECD-B853-6E5E-9297-C50265002ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B372ECD-B853-6E5E-9297-C50265002ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
