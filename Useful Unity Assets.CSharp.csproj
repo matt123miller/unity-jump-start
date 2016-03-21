@@ -93,6 +93,12 @@
     <Compile Include="Assets\Finite State Machine\AI\StateMachineTutorialS\IEnemyState.cs" />
     <Compile Include="Assets\Finite State Machine\AI\StateMachineTutorialS\PatrolState.cs" />
     <Compile Include="Assets\Finite State Machine\AI\StateMachineTutorialS\StatePatternEnemy.cs" />
+    <Compile Include="Assets\Gaze\GazeBase.cs" />
+    <Compile Include="Assets\Gaze\GazeMoveObject.cs" />
+    <Compile Include="Assets\Gaze\GazeToInteract.cs" />
+    <Compile Include="Assets\Gaze\InteractiveAsButton.cs" />
+    <Compile Include="Assets\Gaze\InteractiveByGaze.cs" />
+    <Compile Include="Assets\Gaze\InteractiveGazeToMove.cs" />
     <Compile Include="Assets\Health and Damage\GiveDamageToTarget.cs" />
     <Compile Include="Assets\Health and Damage\GiveHealth.cs" />
     <Compile Include="Assets\Health and Damage\Health.cs" />

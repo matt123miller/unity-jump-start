@@ -5,7 +5,7 @@ public class GazeMoveObject : GazeBase {
 
 
     [Header("GazeMoveObject variables")]
-    public GameObject objectToMove;
+    public Transform objectToMove;
 	// Use this for initialization
 	void Start () {
 	
@@ -13,8 +13,9 @@ public class GazeMoveObject : GazeBase {
 	
 	// Update is called once per frame
 	public override void Gaze(RaycastHit hit) {
-        
-        objectToMove.transform.position = hit.point;
+
+        objectToMove = hit.transform;
+        objectToMove.position = hit.point;
         Debug.Log("hit.transform.position is " + hit.point);
     }
    
