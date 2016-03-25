@@ -1,20 +1,21 @@
 ﻿/*
-    Sourced from http://wiki.unity3d.com/index.php/ReverseNormals
-    Created by Joachim Ante
-    Line 20 altered to use sharedMesh due to potential mesh leakage.
+    Original script created by Joachim Ante, found here http://wiki.unity3d.com/index.php/ReverseNormals.
+    Adapted to be an editor tool instead.
+    Line 21 altered to use sharedMesh instead of regular mesh variable due to potential mesh leakage.
 */
-
 
 using System.Linq;
 using UnityEngine;
-
-[ExecuteInEditMode]
+using UnityEditor;
+ 
 public class FlipNormals : MonoBehaviour
 {
-	void Start()
-	{
+    
+    [MenuItem("Tools/Flip normals of selected object")]
+    private static void Flip()
+    {
+        MeshFilter filter = Selection.activeGameObject.GetComponent<MeshFilter>();
         
-        MeshFilter filter = GetComponent(typeof (MeshFilter)) as MeshFilter;
 		if (filter != null)
 		{
 			Mesh mesh = filter.sharedMesh;
@@ -36,5 +37,5 @@ public class FlipNormals : MonoBehaviour
 				mesh.SetTriangles(triangles, m);
 			}
 		}		
-	}
+    }
 }
