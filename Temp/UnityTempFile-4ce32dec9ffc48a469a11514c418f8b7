@@ -1,0 +1,354 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BasicSerializer.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data\Managed/Mono.Cecil.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_3_4
+-define:UNITY_5_3
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+Assets/Cardboard/Cardboard/DemoScene/FPS.cs
+Assets/Cardboard/Cardboard/DemoScene/Teleport.cs
+Assets/Cardboard/Cardboard/Scripts/Cardboard.cs
+Assets/Cardboard/Cardboard/Scripts/CardboardEye.cs
+Assets/Cardboard/Cardboard/Scripts/CardboardHead.cs
+Assets/Cardboard/Cardboard/Scripts/CardboardPostRender.cs
+Assets/Cardboard/Cardboard/Scripts/CardboardPreRender.cs
+Assets/Cardboard/Cardboard/Scripts/CardboardProfile.cs
+Assets/Cardboard/Cardboard/Scripts/GazeInputModule.cs
+Assets/Cardboard/Cardboard/Scripts/Pose3D.cs
+Assets/Cardboard/Cardboard/Scripts/RadialUndistortionEffect.cs
+Assets/Cardboard/Cardboard/Scripts/StereoController.cs
+Assets/Cardboard/Cardboard/Scripts/StereoRenderEffect.cs
+Assets/Cardboard/Cardboard/Scripts/VRDevices/BaseAndroidDevice.cs
+Assets/Cardboard/Cardboard/Scripts/VRDevices/BaseCardboardDevice.cs
+Assets/Cardboard/Cardboard/Scripts/VRDevices/BaseVRDevice.cs
+Assets/Cardboard/Cardboard/Scripts/VRDevices/CardboardAndroidDevice.cs
+Assets/Cardboard/Cardboard/Scripts/VRDevices/CardboardiOSDevice.cs
+Assets/Cardboard/Cardboard/Scripts/VRDevices/UnityEditorDevice.cs
+Assets/Classes/FadeInOut.cs
+Assets/Classes/FlipNormals.cs
+Assets/Classes/Managers/SceneTransitionManager.cs
+"Assets/Extension Methods/ExtensionMethods.cs"
+"Assets/Finite State Machine/AI/StateMachineTutorialS/AlertState.cs"
+"Assets/Finite State Machine/AI/StateMachineTutorialS/ChaseState.cs"
+"Assets/Finite State Machine/AI/StateMachineTutorialS/IEnemyState.cs"
+"Assets/Finite State Machine/AI/StateMachineTutorialS/PatrolState.cs"
+"Assets/Finite State Machine/AI/StateMachineTutorialS/StatePatternEnemy.cs"
+Assets/Gaze/GazeBase.cs
+Assets/Gaze/GazeMoveObject.cs
+Assets/Gaze/GazeToInteract.cs
+Assets/Gaze/InteractiveAsButton.cs
+Assets/Gaze/InteractiveByGaze.cs
+Assets/Gaze/InteractiveGazeToMove.cs
+"Assets/Health and Damage/GiveDamageToTarget.cs"
+"Assets/Health and Damage/GiveHealth.cs"
+"Assets/Health and Damage/Health.cs"
+"Assets/Health and Damage/HealthBar.cs"
+"Assets/Health and Damage/IGiveHealth.cs"
+"Assets/Health and Damage/ITakeDamage.cs"
+"Assets/Health and Damage/Projectile.cs"
+Assets/Inventory/BaseInventItem.cs
+Assets/Inventory/EnemyInventory.cs
+Assets/Inventory/IInventory.cs
+Assets/Inventory/IItem.cs
+Assets/Inventory/KeyCard.cs
+Assets/Inventory/PlayerInventory.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Core/FSCommon.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Core/Load.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Core/Save.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Other/FSAttributes.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Other/FSExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Other/FSMarker.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Other/FSReference.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/BinaryX20.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Internal/X20Logic.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Internal/X20Member.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Internal/X20Reflection.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/ArraySerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/BaseSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/CollectionSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/DictionarySerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/EnumSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/ListSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/PrimitiveSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/ReflectiveSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/StrongSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/TypeSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializer/BinaryX20/Serializers/UnityStructs.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializers/AnimationSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializers/AssetReferenceSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializers/ExplicitComponentSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializers/GameObjectSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializers/LightSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Serializers/ReflectiveComponentSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Storage/AssetStorage.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/FastSave/Storage/PrefabStorage.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/AnimatorExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/ComponentExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/DelegateExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/FastReflection.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/Flags.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/GameObjectExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/GenericEnumerableExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/LayerMaskExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/MemberInfoExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/MethodInfoExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/OtherExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/PropertyInfoExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/RendererExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/RigidbodyExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/StringExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/SystemObjectExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/TransformExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/TypeExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/UnityObjectExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Extensions/VectorExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Helpers/Assert.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Helpers/EventsHelper.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Helpers/GOHelper.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Helpers/GizHelper.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Helpers/ReflectionHelper.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Library/Helpers/RuntimeHelper.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/SerializationAttributes.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/SerializationData.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/SerializationLogic.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/FullSerializerBackend.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/MethodInfoConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/Unity/AnimationCurve_DirectConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/Unity/Bounds_DirectConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/Unity/Gradient_DirectConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/Unity/Keyframe_DirectConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/Unity/LayerMask_DirectConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/Unity/Rect_DirectConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsArrayConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsDateConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsDictionaryConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsEnumConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsGuidConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsIEnumerableConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsKeyValuePairConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsNullableConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsPrimitiveConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsReflectedConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsTypeConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Converters/fsWeakReferenceConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Internal/fsCyclicReferenceManager.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Internal/fsOption.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Internal/fsPortableReflection.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Internal/fsTypeExtensions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Internal/fsVersionManager.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Internal/fsVersionedType.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Reflection/fsMetaProperty.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Reflection/fsMetaType.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Reflection/fsReflectionUtility.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/Reflection/fsTypeLookup.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsAotCompilationManager.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsBaseConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsConfig.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsContext.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsConverterRegistrar.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsData.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsDirectConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsExceptions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsISerializationCallbacks.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsIgnoreAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsJsonParser.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsJsonPrinter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsMemberSerialization.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsObjectAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsObjectProcessor.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsPropertyAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsResult.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/Source/fsSerializer.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/FullSerializer/UnityObjectConverter.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Serialization/Serializers/SerializerBackend.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/Categories/CategoryAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/Categories/CategoryDisplay.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/Categories/CategoryMemberType.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/Categories/CategorySetOp.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/Categories/DefineCategoriesAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/Categories/DefineCategoryAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/DefaultAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/DisplayAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/DrawingAttributes.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/UsingAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/API/VisibilityAttributes.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Constraints/ClampAttributes.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Constraints/ConstrainValueAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Constraints/IPAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Constraints/MaxAttributes.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Constraints/MinAttributes.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Constraints/RegexAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Decorates/CommentAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Decorates/WhiteSpaceAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Enums/EnumMaskAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Filters/FilterEnumAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Filters/FilterTagsAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Others/AssignableAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Others/ButtonAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Others/DraggableAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Others/InlineAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Others/OnChangedAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Others/ParagraphAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Others/PathAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Others/ResourcePathAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Others/ShowTypeAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Others/SliderAttributes.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Popups/AnimVarAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Popups/InputAxisAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Popups/PopupAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Popups/TagsAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Randoms/RandAttributes.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Requirements/RequirementAttributes.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Selections/SelectEnumAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Selections/SelectObjAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Selections/SelectSceneAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Attributes/User/Vectors/BetterVectorAttribute.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Core/BaseBehaviour.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Core/BaseScriptableObject.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Core/BetterBehaviour.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Core/BetterScriptableObject.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Delegates/BaseDelegates.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Delegates/DelegateSettings.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Delegates/uAction.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Delegates/uDelegate.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Delegates/uFunc.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Others/BetterPrefs.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Others/Exceptions.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Others/KVPList.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Others/RuntimeMember.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Others/SerializableDictionary.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Others/SerializableType.cs
+Assets/VFW-master/VFW-master/Assets/Plugins/Vexe/Runtime/Types/Others/Tuple.cs
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/FastSave Examples/GO/GameObjectTest.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/FastSave Examples/Hierarchy/HierarchyTest.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/FastSave Examples/Marked/MarkedTest.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/FastSave Examples/SomeData.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/AnimVarExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/AssignableExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/BetterVectorExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/ButtonExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/CategoriesExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/CollectionElementExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/ComplexDrawingExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/ConstraintsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/DecorationsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/DefaultValueExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/DisplayExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/DraggableExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/DrawnByUnityLayoutExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/EnumsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/FiltersExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/InlineExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/OnChangedExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/ParagraphExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/PathExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/PopupsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/RandomsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/ResourcePathExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/SelectionsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/SequencesExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/ShowExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/ShowTypeExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/SlidersExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/UsingExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Attributes/VisibleWhenExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/CustomDrawnObjectsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Delegates/DelegatesExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Other/CustomDisplayOptionsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Other/GOInliner.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Other/SceneTransition.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/ScriptableObjects/BSOExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/ScriptableObjects/BetterPrefsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/AbstractsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/GenericsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/InterfacesExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/NullablesExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/PropertiesExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/ReadonlyFieldsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/Rules.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/SerializableDictExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/StaticsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/StructsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Examples/Scripts/Serialization/UnityTypesExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Misc/CachedBehaviour.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Misc/Examples/MessageExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Misc/Examples/RequirementsExample.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Misc/Message.cs"
+"Assets/VFW-master/VFW-master/Assets/VFW Misc/Requirements.cs"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"

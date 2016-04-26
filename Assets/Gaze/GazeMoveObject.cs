@@ -13,7 +13,7 @@ public class GazeMoveObject : GazeBase {
 	
 	// Update is called once per frame
 	public override void Gaze(RaycastHit hit) {
-
+        
         objectToMove = hit.transform;
         objectToMove.position = hit.point;
         Debug.Log("hit.transform.position is " + hit.point);
